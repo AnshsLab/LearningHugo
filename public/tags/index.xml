@@ -2,14 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Home</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/LearningHugo/tags/</link>
     <description>Recent content in Tags on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>anshsinghal1907@gmail.com (Ansh Singhal)</managingEditor>
     <webMaster>anshsinghal1907@gmail.com (Ansh Singhal)</webMaster>
     <copyright>© 2026 Ansh Singhal</copyright>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/LearningHugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Interesting Topic</title>
+      <link>http://localhost:1313/LearningHugo/tags/interesting-topic/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <author>anshsinghal1907@gmail.com (Ansh Singhal)</author>
+      <guid>http://localhost:1313/LearningHugo/tags/interesting-topic/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>http://localhost:1313/LearningHugo/tags/learning/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <author>anshsinghal1907@gmail.com (Ansh Singhal)</author>
+      <guid>http://localhost:1313/LearningHugo/tags/learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Webdev</title>
+      <link>http://localhost:1313/LearningHugo/tags/webdev/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <author>anshsinghal1907@gmail.com (Ansh Singhal)</author>
+      <guid>http://localhost:1313/LearningHugo/tags/webdev/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>http://localhost:1313/LearningHugo/tags/meta/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <author>anshsinghal1907@gmail.com (Ansh Singhal)</author>
+      <guid>http://localhost:1313/LearningHugo/tags/meta/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/LearningHugo/tags/welcome/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <author>anshsinghal1907@gmail.com (Ansh Singhal)</author>
+      <guid>http://localhost:1313/LearningHugo/tags/welcome/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

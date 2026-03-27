@@ -1,11 +1,65 @@
 
+section.flex.flex-wrap.max-w-prose.-mx-2.overflow-hidden {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.6rem !important;
+  padding: 1rem !important;
+  border-radius: 12px !important;
+  margin: 0 !important;
+}
+
+
+section.flex.flex-wrap.max-w-prose.-mx-2.overflow-hidden article {
+  width: auto !important;
+  min-width: fit-content !important;
+  flex: 0 0 auto !important;
+  padding: 0.4rem 0.8rem !important;
+  border-radius: 8px !important;
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+
+section.flex.flex-wrap.max-w-prose.-mx-2.overflow-hidden article h2 {
+  white-space: nowrap !important;
+  font-size: 0.95rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+section.flex.flex-wrap.max-w-prose.-mx-2.overflow-hidden article h2 a {
+  white-space: nowrap !important;
+}
+
+
 .dark .max-w-prose,
 .dark article,
 .dark .backdrop {
-  background-color: rgba(15, 15, 15, 0.85);
+  background-color: rgba(15, 15, 15, 0.82);
   padding: 1.5rem;
   border-radius: 12px;
 }
+
+
+.max-w-prose,
+article,
+.backdrop {
+  background-color: rgba(235, 237, 232, 0.88);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.dark .max-w-prose,
+.dark article,
+.dark .backdrop {
+  background-color: rgba(15, 15, 15, 0.82);
+}
+
+
+.max-w-prose {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 
 section:empty {
   display: none;
@@ -13,43 +67,4 @@ section:empty {
 
 .flex.flex-wrap.max-w-prose.-mx-2.overflow-hidden:not(:has(*)) {
   display: none;
-}
-
-main header {
-  padding-top: 2rem !important;
-  padding-bottom: 1rem !important;
-}
-
-
-main .mt-12,
-main .mt-16,
-main .mt-20,
-main .pt-16,
-main .pt-20,
-main .pt-24 {
-  margin-top: 1rem !important;
-  padding-top: 1rem !important;
-}
-
-
-.hero {
-  min-height: 22vh !important;
-  padding-top: 2rem !important;
-  padding-bottom: 1rem !important;
-}
-
-
-.max-w-prose {
-  margin-top: 1rem !important;
-}
-
-.prose {
-  margin-top: 0.5rem !important;
-}
-
-
-h1,
-.hero .hero-title {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
 }

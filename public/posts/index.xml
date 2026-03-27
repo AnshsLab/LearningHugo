@@ -2,14 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Home</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:1313/LearningHugo/posts/</link>
     <description>Recent content in Blog on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>anshsinghal1907@gmail.com (Ansh Singhal)</managingEditor>
     <webMaster>anshsinghal1907@gmail.com (Ansh Singhal)</webMaster>
     <copyright>© 2026 Ansh Singhal</copyright>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/LearningHugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How I Actually Learned Web Development</title>
+      <link>http://localhost:1313/LearningHugo/posts/my-dev-journey/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <author>anshsinghal1907@gmail.com (Ansh Singhal)</author>
+      <guid>http://localhost:1313/LearningHugo/posts/my-dev-journey/</guid>
+      <description>A breakdown of how I approached learning web dev, and what actually worked.</description>
+      
+    </item>
+    
+    <item>
+      <title>Hello World — Why I Started This Blog</title>
+      <link>http://localhost:1313/LearningHugo/posts/hello-world/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <author>anshsinghal1907@gmail.com (Ansh Singhal)</author>
+      <guid>http://localhost:1313/LearningHugo/posts/hello-world/</guid>
+      <description>My first post — what this blog is about and what you can expect.</description>
+      
+    </item>
     
   </channel>
 </rss>

@@ -26,7 +26,7 @@ disableTextInHeader = false
 customCSS = ["css/custom.css"]
 # backgroundImageWidth = 1200
 
- defaultBackgroundImage = "leaves.jpg" # used as default for background images
+defaultBackgroundImage = "leaves.jpg" # used as default for background images
 # defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 hotlinkFeatureImage = false
@@ -71,10 +71,10 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showDateUpdated = false
   showAuthor = true
   # showAuthorBottom = false
-  showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
@@ -100,7 +100,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
   showSummary = false
   showViews = false
@@ -125,17 +125,20 @@ heroStyle = "background" # valid options: basic, big, background, thumbAndBackgr
   showLikes = false
   showTableOfContents = false
   cardView = false
+  layoutBackgroundHeaderSpace = false
 
 [term]
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
   showViews = false
+  layoutBackgroundBlur = true    
   showLikes = false
   showTableOfContents = true
   groupByYear = false
   cardView = false
   cardViewScreenWidth = false
+  layoutBackgroundHeaderSpace = false
 
 [firebase]
   # apiKey = "XXXXXX"

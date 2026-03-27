@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Home</title>
+    <link>http://localhost:1313/LearningHugo/tags/meta/</link>
+    <description>Recent content in Meta on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>anshsinghal1907@gmail.com (Ansh Singhal)</managingEditor>
+    <webMaster>anshsinghal1907@gmail.com (Ansh Singhal)</webMaster>
+    <copyright>© 2026 Ansh Singhal</copyright>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/LearningHugo/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello World — Why I Started This Blog</title>
+      <link>http://localhost:1313/LearningHugo/posts/hello-world/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <author>anshsinghal1907@gmail.com (Ansh Singhal)</author>
+      <guid>http://localhost:1313/LearningHugo/posts/hello-world/</guid>
+      <description>My first post — what this blog is about and what you can expect.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
